@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes' Way</title>
+    <link rel="stylesheet" href="folder/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Shoes' way.css">
+</head>
+<body onresize="resizer()" onload="productfunc()">
+    <header class="header-container">
+        <div class="container-4-siteName">
+            <h1 class="fname">Shoes'</h1>
+            <h2 class="scname">Way<sup style="font-size: 11px;">&copy;</sup></h2>
+        </div>
+        <div class="container-4-nav flex-box">
+            <span class="fa fa-navicon navic-style-left" style="cursor: pointer;" onclick="addNav()"></span>
+            
+            <div class="navic-style-right flex-box">
+                <div id="searchInput" class="container-4-search flex-box navic-style-center">
+                    <input type="text" name="search"  placeholder="Search Items " onfocus="inputFocus()">
+                    <span class="fa fa-search navic-style-left desktop-search" style="cursor: pointer;"></span>
+                    <span class="fa fa-remove navic-style-left phone-remove" style="cursor: pointer;"></span>   
+                </div> 
+                <span id="search" class="fa fa-search navic-style-right phone-search" style="cursor: pointer;"></span>
+                <div class=" flex-box">
+                    <span class="fa fa-user-o navic-style-reduce" style="cursor: pointer;"></span> 
+                    <p class="sign-in" style="height: 18px; cursor: pointer;">sign-in</p>
+                </div>
+                <div>
+                    <span class="fa fa-shopping-cart navic-style-left "style="cursor: pointer; font-size: 17px;"></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="container-4-nav-2">
+        <div class="flex-box">
+            <nav class="navic-style-center nav-hover">Categories</nav>
+            <nav class="navic-style-right nav-hover">Men</nav>
+            <nav class="navic-style-right nav-hover">Women</nav>
+            <nav class="navic-style-right nav-hover">kid</nav>
+            <div class="brand-main">
+                <nav class="navic-style-right nav-hover">Brands</nav>
+                <div class="brand">
+                    <p class="brand-obj">Nike</p>
+                    <hr>
+                    <p class="brand-obj">Addidas</p>
+                    <hr>
+                    <p class="brand-obj">Jordan</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="flex-box">
+            <nav class="navic-style-right nav-hover">About Us</nav>
+            <span class="navic-style-center fa fa-phone nav-hover"> <span class="fontChange nav-hover">Contact Us</span></span>
+        </div>
+    </section>
+    <section class="container-4-nav-phone">
+        <div class="outer">
+            <span class="fa fa-remove span" onclick="removeNav()"></span>
+            <nav class="navic-style-center nav-hover">Categories</nav><hr>
+            <nav class="navic-style-center nav-hover">Men</nav><hr>
+            <nav class="navic-style-center nav-hover">Women</nav><hr>
+            <nav class="navic-style-center nav-hover">Kids</nav><hr>
+            <div class="brand-main">
+                <nav class="navic-style-center nav-hover flex-box" onclick="brandexpand()"> <p style="padding: 0; margin: 0;">Brands</p> <span class="fa fa-caret-right"></span><span class="fa fa-caret-down"></span> </nav>
+                <hr style="margin-bottom: 0;">
+                <div class="brand">
+                    <p class="brand-obj nav-hover">Nike</p>
+                    <hr>
+                    <p class="brand-obj nav-hover">Addidas</p>
+                    <hr>
+                    <p class="brand-obj nav-hover">Jordan</p>
+                    <hr>
+                    <p class="brand-obj nav-hover">View More...</p>
+                    <hr style="margin-top: 0;">
+                </div>
+            </div>
+        </div>
+        
+        <div class="outer">
+            <nav class="navic-style-center nav-hover">About Us</nav><hr>
+            <nav class="navic-style-center nav-hover">Contact Us</nav>
+        </div>
+    </section>
+    <div>
+        <div class="container-4-name-v2">
+            <h3 class="fname-2"><em>Shoes'</em></h3>
+            <h4 class="scname-2"><em>Way</em></h4>
+            <div class="container-inside-name">
+                <p>Get the shoe of your choice at affordable price here at Shoes' way. We features shoes of different brands
+                    and Categories ranging from kid to adult, men to Women and the likes. 
+                </p>
+                <a href="" class="shop-btn">shop with us</a>
+            </div>
+        </div>
+        <div class="new-flex-box">
+            <div class="cat-box">
+                <h2 class="cat-head">Categories</h2>
+                <div class=" product-container">
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">Men Shoes</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">Women Shoes</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">kids Shoes</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">Sneakers</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">Canvas</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">High Heels</h3>
+                    </div>
+                    <div class="product-inside-container">
+                        <hr class="product-hr">
+                        <div class="hover-hr-container">
+                            <hr class="hover-hr">
+                        </div>
+                        <img src="images/shoes.jpg" alt="men" class="product-img">
+                        <h3 class="product-name">Boots</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="advert">
+                <h2 class="cat-head">Featured Brand</h2>
+                <div class="flex-box featured">
+                    <img src="images/nike.jpeg" alt="Nike">
+                    <img src="images/addidas2.png" alt="Addidas">
+                    <img src="images/jordan.png" alt="Jordan">
+                    <img src="images/nb.png" alt="New Balance">
+                    <img src="images/gucci.png" alt="Gucci">
+                    <img src="images/crocs.png" alt="Crocs">
+                    <img src="images/puma.png" alt="Puma">
+                    <img src="images/converse.jpeg" alt="Converse">
+                    <img src="images/vans.png" alt="Vans">
+                    <div class="img-request">
+                            <span class="fa fa-plus img-request-inside"></span>
+                            <p >Load More</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div  class="recent-product-box"> 
+        <h2 class="cat-head">Recent Product</h2>
+        <div id="recent-product" class="new-flex-box-v2">
+           <div  class="product-inside-container-v2">
+                <div class="product-img-container">
+                    <img src="images/images.jpeg" alt="" class="product-img-v2">
+                </div>
+               <h3 class="product-name-v2">Product Name</h3>
+               <hr class="change">
+               <p class="flex-box instock"> <span>In Stock</span> <span class="product-number">10</span></p>
+               <hr class="change">
+               <div class="flex-box market"><span class="fa fa-cart-plus icon-hover1"></span><span class="fa fa-cc-mastercard icon-hover"></span><span class="fa fa-cc-paypal icon-hover"></span></div>
+               
+           </div>
+        </div>
+    </div>
+    <script src="Shoes' way.js"></script>
+    <script src="Shoes' way ajax file.js"></script>
+</body>
+</html>

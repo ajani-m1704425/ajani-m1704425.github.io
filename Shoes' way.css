@@ -58,9 +58,9 @@ body{
     margin: 20px;
     padding: 20px;
     line-height: 12px;
-    background-image: radial-gradient(farthest-side at -10% 2%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("Images/images.jpeg");
-    background-image: -moz-radial-gradient(farthest-side at 0% 0%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("Images/images.jpeg");
-    background-image: -webkit-radial-gradient(farthest-side at 0% 0%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("Images/images.jpeg");
+    background-image: radial-gradient(farthest-side at -10% 2%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("images/images.jpeg");
+    background-image: -moz-radial-gradient(farthest-side at 0% 0%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("images/images.jpeg");
+    background-image: -webkit-radial-gradient(farthest-side at 0% 0%,rgba(208, 224, 224, 0.918) 2%,rgb(255, 251, 251) 25%,rgba(138, 181, 245, 0.685)), url("images/images.jpeg");
     box-shadow: 1px 2px 2px rgba(76, 78, 78, 0.397);
     background-repeat: no-repeat;
     background-position-x: right;
@@ -235,7 +235,7 @@ hr{
     width: 85%;
     margin: auto;
     position: relative;
-    left:-190px;
+    left:-210px;
     transition: left 0.15s;
     z-index: -1;
 
@@ -245,8 +245,8 @@ hr{
 }
 .product-img{
     display: inline-block;
-    width: 150px;
-    height: 120px;
+    width: 160px;
+    height: 130px;
     object-fit: cover;
     object-position: bottom;
     border-radius: 10px;

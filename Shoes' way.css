@@ -141,6 +141,9 @@ body{
 .navic-style-right{
     margin: 0 4px 0 0;
 }
+.navic-style-right-new{
+    margin: 0 8px 0 0;
+}
 .navic-style-center{
     margin: 0 4px;
 }

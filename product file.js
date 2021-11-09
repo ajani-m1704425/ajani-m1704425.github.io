@@ -8,7 +8,7 @@ function productCat(){
         addProduct(productObj);
         };
     };
-    request.open("GET", "https://raw.githubusercontent.com/ajani-m1704425/ajani-omo-oloye/main/Shoes'%20way.json",true);
+    request.open("GET", "https://raw.githubusercontent.com/ajani-m1704425/ajani-m1704425.github.io/main/product%20file.json",true);
     request.send();    
 }
 

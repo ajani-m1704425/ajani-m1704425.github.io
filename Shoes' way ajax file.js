@@ -1,5 +1,4 @@
 let job = document.querySelector("#recent-product");
-document.querySelector("body").addEventListener("load",productfunc);
 function productfunc(){
     let request = new XMLHttpRequest();
     request.onreadystatechange=function(){

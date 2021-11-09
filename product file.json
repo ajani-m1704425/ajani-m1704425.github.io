@@ -1,5 +1,5 @@
 {
-    "catImage":["images/men.jpeg","images/women.jpeg","images/kid.jpeg","images/sneaker.jpeg","images/canvas.jpeg","images/high heel.jpeg","images/boot.jpeg"],
+    "catImage":["images/men.jpeg","images/women.jpeg","images/kid.jpeg","images/sneaker.jpeg","images/canvas.jpeg","images/heel.jpeg","images/boot.jpeg"],
     "catName":["Men Shoes","Women Shoes","kids Shoes","Sneakers","Canvas","High Heels","Boots"],
     "lengths": 7
 }

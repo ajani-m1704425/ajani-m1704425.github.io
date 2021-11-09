@@ -14,7 +14,7 @@ function productCat(){
 
 
 function addProduct(product){
-    for(let i=0;i<product.lengths;i++){
+    for(let i=1;i<product.lengths;i++){
         let text = "<div class='product-inside-container'>" +
                     "<hr class='product-hr'><div class='hover-hr-container'>"
                     "<hr class='hover-hr'></div><img src=" + product.catImage[i]+ " alt='men' class='product-img'>"

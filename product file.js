@@ -1,5 +1,4 @@
 let productContainer = document.querySelector(".product-container");
-document.getElementsByTagName("body").addEventListener("load",productCat);
 function productCat(){
     let request = new XMLHttpRequest();
     request.onreadystatechange=function(){

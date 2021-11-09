@@ -12,12 +12,12 @@ function productCat(){
 }
 
 
-function addProduct(product){
-    for(let i=0;i<product.lengths;i++){
+function addProduct(produ){
+    for(let i=0;i<produ.lengths;i++){
         let text = "<div class='product-inside-container'>" +
                     "<hr class='product-hr'><div class='hover-hr-container'>"
-                    "<hr class='hover-hr'></div><img src=" + product.catImage[i]+ " alt='men' class='product-img'>"
-                    + "<h3 class='product-name'>" + product.catName[i] +"</h3></div>";
+                    "<hr class='hover-hr'></div><img src=" + produ.catImage[i]+ " class='product-img'>"
+                    + "<h3 class='product-name'>" + produ.catName[i] +"</h3></div>";
         productContainer.insertAdjacentHTML("beforeend",text);
     };
 }

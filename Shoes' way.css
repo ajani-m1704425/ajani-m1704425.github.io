@@ -238,7 +238,7 @@ hr{
     width: 85%;
     margin: auto;
     position: relative;
-    left:-210px;
+    left:-250px;
     transition: left 0.15s;
     z-index: -1;
 
@@ -248,8 +248,8 @@ hr{
 }
 .product-img{
     display: inline-block;
-    width: 170px;
-    height: 140px;
+    width: 200px;
+    height: 170px;
     object-fit: cover;
     object-position: bottom;
     border-radius: 10px;
@@ -510,8 +510,8 @@ hr{
         
     }
     .product-img{
-        width: 170px;
-        height: 140px;
+        width: 200px;
+        height: 170px;
     }
     .product-img-container{
         height: 174px;

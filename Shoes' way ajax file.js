@@ -1,5 +1,5 @@
 let job = document.querySelector("#recent-product");
-let load = document.queryCommandValue(".load");
+let load = document.querySelector(".load");
 load.addEventListener("click",loadmore)
 let counter = 8;
 function productfunc(){

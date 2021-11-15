@@ -55,4 +55,5 @@ function loadmoreProduct(obj){
         job.insertAdjacentHTML("beforeend", productText);
         }
     }
+    counter = counter + i;
 }

@@ -2,6 +2,7 @@ let job = document.querySelector("#recent-product");
 let load = document.querySelector(".load");
 load.addEventListener("click",loadmore);
 let counter = 8;
+let i;
 function productfunc(){
     let request = new XMLHttpRequest();
     request.onreadystatechange=function(){
@@ -42,7 +43,6 @@ function loadProduct(obj){
 }
 
 function loadmoreProduct(obj){
-    let i;
     for(i = counter; i<counter+8;i++){
         if(i>obj.lengths){
             break;

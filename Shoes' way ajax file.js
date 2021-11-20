@@ -44,7 +44,7 @@ function loadProduct(obj){
 function loadmoreProduct(obj){
     let i;
     for(i = counter; i<counter+8;i++){
-        if(i>obj.lenghts){
+        if(i>obj.lengths){
             break;
         }
         else{

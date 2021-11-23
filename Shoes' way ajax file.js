@@ -43,8 +43,7 @@ function loadProduct(obj){
 }
 
 function loadmoreProduct(obj){
-    let new_count=i+8;
-    for(i; i<new_count;i++){
+    for(i; i<counter+8;i++){
         if(i>obj.lengths){
             break;
         }
@@ -57,4 +56,5 @@ function loadmoreProduct(obj){
         job.insertAdjacentHTML("beforeend", productText);
         }
     }
+    counter=counter+i;
 }

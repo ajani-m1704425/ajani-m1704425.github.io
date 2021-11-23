@@ -43,8 +43,8 @@ function loadProduct(obj){
 }
 
 function loadmoreProduct(obj){
-    let new_count=i;
-    for(i; i<new_count+8;i++){
+    let new_count=i+8;
+    for(i; i<new_count;i++){
         if(i>obj.lengths){
             break;
         }

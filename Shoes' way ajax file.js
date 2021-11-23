@@ -32,7 +32,7 @@ function loadmore(){
 
 
 function loadProduct(obj){
-    for(let i=0;i<counter;i++){
+    for(i=0;i<counter;i++){
         let productText= "<div class='product-inside-container-v2'>" +
                             "<div class='product-img-container'><img src='" + obj.productimage[i] + "' class='product-img-v2'></div>" +
             "<h3 class='product-name-v2'>" + obj.productname[i] + "</h3><hr class='change'><p class='flex-box instock'> <span>In Stock</span> <span class='product-number'>" +
@@ -43,7 +43,8 @@ function loadProduct(obj){
 }
 
 function loadmoreProduct(obj){
-    for(i = counter; i<counter+8;i++){
+    let new_count=i;
+    for(i; i<new_count+8;i++){
         if(i>obj.lengths){
             break;
         }
@@ -56,5 +57,4 @@ function loadmoreProduct(obj){
         job.insertAdjacentHTML("beforeend", productText);
         }
     }
-    counter = counter + i;
 }

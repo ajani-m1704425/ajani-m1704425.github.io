@@ -534,7 +534,7 @@ hr{
         border-radius: 10px;
     }
     .load{
-        width: 10%;
+        width: 20%;
     }
 
   
@@ -567,4 +567,8 @@ hr{
     .new-flex-box{
         justify-content: space-evenly;
     }
+    .load{
+        width: 10%;
+    }
+
 }

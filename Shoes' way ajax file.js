@@ -2,7 +2,7 @@ let job = document.querySelector("#recent-product");
 let load = document.querySelector(".load");
 load.addEventListener("click",loadmore);
 let counter = 8;
-let i;
+let i=0;
 function productfunc(){
     let request = new XMLHttpRequest();
     request.onreadystatechange=function(){
@@ -32,7 +32,7 @@ function loadmore(){
 
 
 function loadProduct(obj){
-    for(i=0;i<counter;i++){
+    for(i;i<counter;i++){
         let productText= "<div class='product-inside-container-v2'>" +
                             "<div class='product-img-container'><img src='" + obj.productimage[i] + "' class='product-img-v2'></div>" +
             "<h3 class='product-name-v2'>" + obj.productname[i] + "</h3><hr class='change'><p class='flex-box instock'> <span>In Stock</span> <span class='product-number'>" +
